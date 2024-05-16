@@ -9,9 +9,8 @@
         <link rel="icon" sizes="192x192" href="https://static.wixstatic.com/media/dcade1_76b26412e76e40aab7b4918bc16e61e5%7Emv2.png">
       <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" href="styles.css" />
-      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
-        
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js" integrity="sha512-0zGLOFv/+OQ6YfVCSGDQWhrDRx0ONmBqWvs3gI4olm8i6xtKoG1FhEnB4eTaWCVnojyfUDgE8Izeln+mAJAkFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>      
 </head>
 
 <body>
@@ -30,7 +29,7 @@
                                         </span>
                                 </div>
                                 <ul class="menu">
-                                  <li><a href="#">Home</a></li>
+                                  <!-- <li><a href="#">Home</a></li> -->
                                   <li><a href="#about">About</a></li>
                                   <li><a href="#speaker-id">Speakers</a></li>
                                   <li>
@@ -50,9 +49,9 @@
                                     </div>
                                   </li>
                                   <li><a href="#contact">Contact</a></li>
-                                  <li style="background-color: red;  padding:0;"
+                                  <!-- <li style="background-color: red;  padding:0;"
                                           class="hoverable"><a href="https://docs.google.com/forms/d/1f1cz0ptO5EaTtlWz2t9x26ssO28WQZY2hoFIatq2ixY/viewform?ts=646fc35c&edit_requested=true">Buy Tickets</a>
-                                  </li>
+                                  </li> -->
                           </ul>
                         </div>
                 </div>
@@ -62,14 +61,16 @@
        <!--THEME SECTION-->
 
        
-       <section class="main-theme">
+       <section class="main-theme" id="main-theme-section">
         <div class="theme-div">
             <div class="theme-heading">
                 <h1 class="theme">RESONATING CHORDS</h1>
                 <p>Join us on 8th June 2023</p>
                 <a class="ticket-btn" href="https://docs.google.com/forms/d/1f1cz0ptO5EaTtlWz2t9x26ssO28WQZY2hoFIatq2ixY/viewform?ts=646fc35c&edit_requested=true">Buy Tickets</a>
             </div>
-            <canvas id="waves"></canvas>
+            <div id="animationDiv">
+            <script src="sketch.js"></script>
+            </div>
         </div>
     </section>
 
