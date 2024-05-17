@@ -128,5 +128,5 @@ function draw() {
 }
 
 function windowResized(){
-	cnvs = createCanvas(w, h, WEBGL);
+	cnvs = resizeCanvas(w, h);
 }
