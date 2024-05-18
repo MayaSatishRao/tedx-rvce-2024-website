@@ -379,48 +379,12 @@ body {
   margin-bottom: 2.75rem;
 }
 
-.filter-1_1,
-.filter-2_1 {
-  width: 22rem;
-  height: 24rem;
-  position: relative;
-}
-
-.filter-1_1:after,
-.filter-2_1:after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0.55;
-}
-
-.filter-1_1:after {
-  background-image: linear-gradient(to right, rgba(70, 84, 132, 1), rgba(221, 203, 147, 0.5), black)
-}
-
-.filter-2_1:after {
-  background-image: linear-gradient(to left, black, rgba(70, 84, 132, 1), rgba(221, 203, 147, 0.5));
-}
 
 .speaker-image1 {
   width: 22rem;
   height: 24rem;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.filter-1_1 .speaker-image1 {
-  -webkit-mask-image: linear-gradient(to right, white 85%, transparent 100%);
-  mask-image: linear-gradient(to right, white, transparent);
-}
-
-.filter-2_1 .speaker-image1 {
-  -webkit-mask-image: linear-gradient(to right, white 85%, transparent 100%);
-  mask-image: linear-gradient(to left, white, transparent);
 }
 
 .speaker-image1 img {

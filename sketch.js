@@ -62,7 +62,7 @@ function setup() {
   cnvs.parent("animationDiv");
   cols = 2*w / scl;
 	rows = 2*h / scl;
-
+  frameRate(30);
 	//https://stackoverflow.com/questions/966225/how-can-i-create-a-two-dimensional-array-in-javascript
   for (var x = 0; x < cols; x++) {
     terrain[x] = [];

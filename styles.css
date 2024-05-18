@@ -583,31 +583,6 @@ body {
     margin-bottom:2rem;
 }
 
-.filter-1, .filter-2{
-    width:30rem;
-    height: 25rem;
-    position: relative;
-}
-
-.filter-1:after, .filter-2:after{
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: 0.55;
-}
-
-.filter-1:after{
-    background-image: linear-gradient(to right , rgba(70, 84, 132,1) , rgba(221, 203, 147,0.5) , black)
-}
-
-.filter-2:after{
-    background-image: linear-gradient(to left ,black,rgba(70, 84, 132,1) , rgba(221, 203, 147,0.5));
-}
-
 .speaker-image{
     width:22rem;
     height: 25rem;
